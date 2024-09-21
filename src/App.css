@@ -1,0 +1,62 @@
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 400px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.Input{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+textarea{
+  width: 400px;
+  padding: 12px;
+  border-radius: 10px;
+}
+select{
+  width: 400px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  width: 440px;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  margin: 50px auto;
+}
+.handleSave{
+  width: 400px;
+  background-color: rgb(47, 255, 0);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 1.1rem;
+  transition: all 0.5s;
+}
+.handleSave:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(43, 247, 3);
+}
+.user-list{
+  display: flex;
+  gap: 30px;
+  margin: 30px auto;
+}
